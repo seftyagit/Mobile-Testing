@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite Search,,,,2022-12-09 12:15:09,2022-12-09 12:16:47,1m - 37.299s,PASSED
+,,,,,,,
+Test Cases/Menu kategori,,,,2022-12-09 12:15:10,2022-12-09 12:16:31,1m - 20.709s,PASSED
+"callTestCase(findTestCase(""Open Apk""), [:], STOP_ON_FAILURE)",,,,2022-12-09 12:15:11,2022-12-09 12:15:59,48.751s,PASSED
+"tap(findTestObject(""Object Repository/Addtocart/Menu-Categori""), 0)",,,,2022-12-09 12:15:59,2022-12-09 12:16:30,30.435s,PASSED
+"tap(findTestObject(""Object Repository/Addtocart/Menu-Electronics""), 0)",,,,2022-12-09 12:16:30,2022-12-09 12:16:31,0.918s,PASSED
+,,,,,,,
+Test Cases/Search Produk,,,,2022-12-09 12:16:31,2022-12-09 12:16:36,5.525s,PASSED
+"tap(findTestObject(""Search Produk/search""), 0)",,,,2022-12-09 12:16:31,2022-12-09 12:16:32,0.468s,PASSED
+"tap(findTestObject(""Search Produk/field search produk""), 0)",,,,2022-12-09 12:16:32,2022-12-09 12:16:34,1.851s,PASSED
+"setText(findTestObject(""Search Produk/field search produk""), search, 0)",,,,2022-12-09 12:16:34,2022-12-09 12:16:36,1.906s,PASSED
+"tap(findTestObject(""Search Produk/close search""), 0)",,,,2022-12-09 12:16:36,2022-12-09 12:16:36,0.783s,PASSED
+,,,,,,,
+Test Cases/Search Produk,,,,2022-12-09 12:16:36,2022-12-09 12:16:42,5.148s,PASSED
+"tap(findTestObject(""Search Produk/search""), 0)",,,,2022-12-09 12:16:37,2022-12-09 12:16:38,1.459s,PASSED
+"tap(findTestObject(""Search Produk/field search produk""), 0)",,,,2022-12-09 12:16:38,2022-12-09 12:16:39,1.157s,PASSED
+"setText(findTestObject(""Search Produk/field search produk""), search, 0)",,,,2022-12-09 12:16:39,2022-12-09 12:16:41,1.682s,PASSED
+"tap(findTestObject(""Search Produk/close search""), 0)",,,,2022-12-09 12:16:41,2022-12-09 12:16:42,0.815s,PASSED
+,,,,,,,
+Test Cases/Search Produk,,,,2022-12-09 12:16:42,2022-12-09 12:16:47,5.036s,PASSED
+"tap(findTestObject(""Search Produk/search""), 0)",,,,2022-12-09 12:16:42,2022-12-09 12:16:43,1.400s,PASSED
+"tap(findTestObject(""Search Produk/field search produk""), 0)",,,,2022-12-09 12:16:43,2022-12-09 12:16:44,1.136s,PASSED
+"setText(findTestObject(""Search Produk/field search produk""), search, 0)",,,,2022-12-09 12:16:44,2022-12-09 12:16:46,1.705s,PASSED
+"tap(findTestObject(""Search Produk/close search""), 0)",,,,2022-12-09 12:16:46,2022-12-09 12:16:47,0.778s,PASSED

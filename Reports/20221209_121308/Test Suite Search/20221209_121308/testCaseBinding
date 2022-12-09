@@ -1,0 +1,4 @@
+{"testCaseName":"Test Cases/Menu kategori","testCaseId":"Test Cases/Menu kategori","iterationVariableName":""}
+{"testCaseName":"Test Cases/Search Produk","testCaseId":"Test Cases/Search Produk","iterationVariableName":"","bindedValues":{"search":"\u0027Samsung\u0027"}}
+{"testCaseName":"Test Cases/Search Produk","testCaseId":"Test Cases/Search Produk","iterationVariableName":"","bindedValues":{"search":"\u0027Apple\u0027"}}
+{"testCaseName":"Test Cases/Search Produk","testCaseId":"Test Cases/Search Produk","iterationVariableName":"","bindedValues":{"search":"\u0027@#$%^\u0026^ Samsa\u0027"}}
