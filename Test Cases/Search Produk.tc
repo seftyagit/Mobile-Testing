@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search Produk</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d776afdb-baa0-48ee-a923-ee343737fae8</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>be10e326-0898-42c6-b15d-1c5ce1f0212d</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Search Produk</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>be10e326-0898-42c6-b15d-1c5ce1f0212d</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>search</value>
+      <variableId>77f05435-d791-4187-8c14-c02a26d264c3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'search'</defaultValue>
+      <description></description>
+      <id>77f05435-d791-4187-8c14-c02a26d264c3</id>
+      <masked>false</masked>
+      <name>search</name>
+   </variable>
+</TestCaseEntity>
