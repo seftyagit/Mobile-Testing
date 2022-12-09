@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite Search" time="97.299" tests="4" failures="0" errors="0">
+   <testsuite name="Test Suite Search" tests="4" failures="0" errors="0" time="97.299" skipped="0" timestamp="2022-12-09 12:15:09" hostname="BRI - 192.168.100.11" id="Test Suites/Test Suite Search">
+      <properties>
+         <property name="deviceName" value="samsung SM-G770F (Android 12)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\BRI\\git\\Testing Mobile Terbaru\\Mobile-Testing\\Reports\\20221209_121458\\Test Suite Search\\20221209_121458"/>
+         <property name="logFiles" value="C:\\Users\\BRI\\git\\Testing Mobile Terbaru\\Mobile-Testing\\Reports\\20221209_121458\\Test Suite Search\\20221209_121458\\appium.log, C:\\Users\\BRI\\git\\Testing Mobile Terbaru\\Mobile-Testing\\Reports\\20221209_121458\\Test Suite Search\\20221209_121458\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="BRI - 192.168.100.11"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="SM-G770F"/>
+         <property name="hostAddress" value="192.168.100.11"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="RR8NA04R7CV"/>
+         <property name="deviceName" value="samsung SM-G770F (Android 12)"/>
+         <property name="deviceOSVersion" value="12"/>
+      </properties>
+      <testcase name="Test Cases/Menu kategori" time="80.709" classname="Test Cases/Menu kategori" status="PASSED">
+         <system-out><![CDATA[2022-12-09 12:15:10 - [TEST_CASE][PASSED] - Test Cases/Menu kategori: Test Cases/Menu kategori
+
+2022-12-09 12:15:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Open Apk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Open Apk' successfully
+
+2022-12-09 12:15:11 - [TEST_CASE][PASSED] - Test Cases/Open Apk: Test Cases/Open Apk
+
+2022-12-09 12:15:12 - [TEST_STEP][PASSED] - startExistingApplication("com.solodroid.solomerce", STOP_ON_FAILURE): Starting app with application ID: 'com.solodroid.solomerce'
+
+2022-12-09 12:15:14 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-12-09 12:15:21 - [MESSAGE][INFO] - Appium server started on port 51,218
+
+2022-12-09 12:15:59 - [MESSAGE][PASSED] - Starting app with application ID: 'com.solodroid.solomerce'
+
+2022-12-09 12:15:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Open Apk' successfully
+
+2022-12-09 12:15:59 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Addtocart/Menu-Categori"), 0): Tapped on element 'Object Repository/Addtocart/Menu-Categori'
+
+2022-12-09 12:16:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-09 12:16:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Addtocart/Menu-Categori'
+
+2022-12-09 12:16:30 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Addtocart/Menu-Electronics"), 0): Tapped on element 'Object Repository/Addtocart/Menu-Electronics'
+
+2022-12-09 12:16:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-09 12:16:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Addtocart/Menu-Electronics']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search Produk" time="5.525" classname="Test Cases/Search Produk" status="PASSED">
+         <system-out><![CDATA[2022-12-09 12:16:31 - [TEST_CASE][PASSED] - Test Cases/Search Produk: Test Cases/Search Produk
+
+2022-12-09 12:16:31 - [TEST_STEP][PASSED] - tap(findTestObject("Search Produk/search"), 0): Tapped on element 'Object Repository/Search Produk/search'
+
+2022-12-09 12:16:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-09 12:16:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Search Produk/search'
+
+2022-12-09 12:16:32 - [TEST_STEP][PASSED] - tap(findTestObject("Search Produk/field search produk"), 0): Tapped on element 'Object Repository/Search Produk/field search produk'
+
+2022-12-09 12:16:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-09 12:16:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Search Produk/field search produk'
+
+2022-12-09 12:16:34 - [TEST_STEP][PASSED] - setText(findTestObject("Search Produk/field search produk"), search, 0): Text 'Samsung' has been set to element 'Object Repository/Search Produk/field search produk'
+
+2022-12-09 12:16:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-09 12:16:36 - [MESSAGE][PASSED] - Text 'Samsung' has been set to element 'Object Repository/Search Produk/field search produk'
+
+2022-12-09 12:16:36 - [TEST_STEP][PASSED] - tap(findTestObject("Search Produk/close search"), 0): Tapped on element 'Object Repository/Search Produk/close search'
+
+2022-12-09 12:16:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-09 12:16:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Search Produk/close search']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search Produk" time="5.148" classname="Test Cases/Search Produk" status="PASSED">
+         <system-out><![CDATA[2022-12-09 12:16:36 - [TEST_CASE][PASSED] - Test Cases/Search Produk: Test Cases/Search Produk
+
+2022-12-09 12:16:37 - [TEST_STEP][PASSED] - tap(findTestObject("Search Produk/search"), 0): Tapped on element 'Object Repository/Search Produk/search'
+
+2022-12-09 12:16:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-09 12:16:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Search Produk/search'
+
+2022-12-09 12:16:38 - [TEST_STEP][PASSED] - tap(findTestObject("Search Produk/field search produk"), 0): Tapped on element 'Object Repository/Search Produk/field search produk'
+
+2022-12-09 12:16:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-09 12:16:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Search Produk/field search produk'
+
+2022-12-09 12:16:39 - [TEST_STEP][PASSED] - setText(findTestObject("Search Produk/field search produk"), search, 0): Text 'Apple' has been set to element 'Object Repository/Search Produk/field search produk'
+
+2022-12-09 12:16:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-09 12:16:41 - [MESSAGE][PASSED] - Text 'Apple' has been set to element 'Object Repository/Search Produk/field search produk'
+
+2022-12-09 12:16:41 - [TEST_STEP][PASSED] - tap(findTestObject("Search Produk/close search"), 0): Tapped on element 'Object Repository/Search Produk/close search'
+
+2022-12-09 12:16:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-09 12:16:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Search Produk/close search']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search Produk" time="5.036" classname="Test Cases/Search Produk" status="PASSED">
+         <system-out><![CDATA[2022-12-09 12:16:42 - [TEST_CASE][PASSED] - Test Cases/Search Produk: Test Cases/Search Produk
+
+2022-12-09 12:16:42 - [TEST_STEP][PASSED] - tap(findTestObject("Search Produk/search"), 0): Tapped on element 'Object Repository/Search Produk/search'
+
+2022-12-09 12:16:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-09 12:16:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Search Produk/search'
+
+2022-12-09 12:16:43 - [TEST_STEP][PASSED] - tap(findTestObject("Search Produk/field search produk"), 0): Tapped on element 'Object Repository/Search Produk/field search produk'
+
+2022-12-09 12:16:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-09 12:16:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Search Produk/field search produk'
+
+2022-12-09 12:16:44 - [TEST_STEP][PASSED] - setText(findTestObject("Search Produk/field search produk"), search, 0): Text '@#$%^&^ Samsa' has been set to element 'Object Repository/Search Produk/field search produk'
+
+2022-12-09 12:16:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-09 12:16:46 - [MESSAGE][PASSED] - Text '@#$%^&^ Samsa' has been set to element 'Object Repository/Search Produk/field search produk'
+
+2022-12-09 12:16:46 - [TEST_STEP][PASSED] - tap(findTestObject("Search Produk/close search"), 0): Tapped on element 'Object Repository/Search Produk/close search'
+
+2022-12-09 12:16:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-09 12:16:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Search Produk/close search']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-12-09 12:15:09 - [TEST_SUITE][PASSED] - Test Suite Search: Test Cases/Search Produk]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
